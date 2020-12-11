@@ -19,7 +19,7 @@ def seed_mongo(endpoint, city, lake, url1, url2, url3, report):
         insert = collection.replace_one({"city": city}, mydict)
         print('Mongo DB updated')
     except:
-        print('Error fetching wave data')
+        print('Error fetching wave data!')
 
 
 if __name__ == "__main__":
