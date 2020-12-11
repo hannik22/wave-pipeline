@@ -114,7 +114,7 @@ def wavedata(url1, url2, url3):
         
 
     #create a dataframe for time slots
-    forecast = pd.Series(pd.date_range(dwvht['validTime'][0], freq='H', periods=36), name="validTime")
+    forecast = pd.Series(pd.date_range(dwvht['validTime'][0], freq='H', periods=72), name="validTime")
     forecast = forecast.to_frame()
     forecast['validTime'] = pd.to_datetime(forecast['validTime'], format = '%Y-%m-%dT%H:%M')
 
