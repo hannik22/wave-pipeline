@@ -4,10 +4,10 @@ import json
 import pandas as pd
 import datetime
 
-def wavedata(url1, url2, url3):
-    x = requests.get(url1)
-    y = requests.get(url2)
-    z = requests.get(url3)
+def wavedata(urlstrings):
+    x = requests.get(urlstrings[0])
+    y = requests.get(urlstrings[1])
+    z = requests.get(urlstrings[2])
 
     array = []
     urls = [x, y, z]
@@ -26,7 +26,7 @@ def wavedata(url1, url2, url3):
     index, value = max(enumerate(array), key=operator.itemgetter(1))
 
     jsonOutput = urls[index].json()
-    
+
     ## wave height
     wvht = jsonOutput['properties']['waveHeight']['values']
     dwvht = pd.json_normalize(wvht)[:]
