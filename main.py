@@ -25,7 +25,7 @@ for i in inputResults:
         report = reportdata(reportId)
         temp = watertemp(lake)
         mydict = {"endPoint": endpoint, "city": city, "lake":lake, "properties": waves, "last_modified": datetime.datetime.utcnow(), "report": report, "watertemp": temp}
-        insert = outputcollection.replace_one({"city": city}, mydict)
+        insert = outputcollection.replace_one({"city": city}, mydict, upsert=True)
         print('Mongo DB updated')
     except:
         print('Error fetching wave data!')
