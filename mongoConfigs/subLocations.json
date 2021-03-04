@@ -1,0 +1,184 @@
+[{
+  "_id": {
+    "$oid": "5fd7c44843aec4fd16c77442"
+  },
+  "endPoint": "Chicago",
+  "locations": [
+    "Evanston",
+    "57th",
+    "Montrose",
+    "Shooters"
+  ],
+  "name": "Chicago, IL",
+  "urls": [
+    "https://api.weather.gov/gridpoints/LOT/74,77",
+    "https://api.weather.gov/gridpoints/LOT/73,80",
+    "https://api.weather.gov/gridpoints/LOT/76,76"
+  ],
+  "lake": "Lake Michigan",
+  "reportId": "LMZ741"
+},{
+  "_id": {
+    "$oid": "5fdb782bac3a7a9be79711d2"
+  },
+  "endPoint": "Milwaukee",
+  "locations": [
+    "Atwater",
+    "Bradford",
+    "Winthrop"
+  ],
+  "name": "Milwaukee, WI",
+  "urls": [
+    "https://api.weather.gov/gridpoints/MKX/88,68",
+    "https://api.weather.gov/gridpoints/MKX/93,54",
+    "https://api.weather.gov/gridpoints/MKX/88,72"
+  ],
+  "lake": "Lake Michigan",
+  "reportId": "LMZ644"
+},{
+  "_id": {
+    "$oid": "5fdb7908ac3a7a9be79711d3"
+  },
+  "endPoint": "Sheboygan",
+  "locations": [
+    "Elbow",
+    "Blue Harbor"
+  ],
+  "name": "Sheboygan, WI",
+  "urls": [
+    "https://api.weather.gov/gridpoints/MKX/93,96",
+    "https://api.weather.gov/gridpoints/MKX/93,98",
+    "https://api.weather.gov/gridpoints/MKX/93,101"
+  ],
+  "lake": "Lake Michigan",
+  "reportId": "LMZ643"
+},{
+  "_id": {
+    "$oid": "5fdb7f89ac3a7a9be79711d4"
+  },
+  "endPoint": "DoorCounty",
+  "locations": [
+    "Door County"
+  ],
+  "name": "Door County, WI",
+  "urls": [
+    "https://api.weather.gov/gridpoints/GRB/105,51",
+    "https://api.weather.gov/gridpoints/GRB/109,59",
+    "https://api.weather.gov/gridpoints/GRB/115,73"
+  ],
+  "lake": "Lake Michigan",
+  "reportId": "LMZ541"
+},{
+  "_id": {
+    "$oid": "5fdb8002ac3a7a9be79711d5"
+  },
+  "endPoint": "MichiganCity",
+  "locations": [
+    "Michigan City"
+  ],
+  "name": "Michigan City, IN",
+  "urls": [
+    "https://api.weather.gov/gridpoints/IWX/6,63",
+    "https://api.weather.gov/gridpoints/IWX/7,64",
+    "https://api.weather.gov/gridpoints/IWX/7,64"
+  ],
+  "lake": "Lake Michigan",
+  "reportId": "LMZ046"
+},{
+  "_id": {
+    "$oid": "5fdb808eac3a7a9be79711d6"
+  },
+  "endPoint": "SaintJoseph",
+  "locations": [
+    "Silver Beach",
+    "Tiscornia Park"
+  ],
+  "name": "Saint Joseph, MI",
+  "urls": [
+    "https://api.weather.gov/gridpoints/GRR/15,6",
+    "https://api.weather.gov/gridpoints/IWX/18,80",
+    "https://api.weather.gov/gridpoints/IWX/18,79"
+  ],
+  "lake": "Lake Michigan",
+  "reportId": "LMZ046"
+},{
+  "_id": {
+    "$oid": "5fdb80d3ac3a7a9be79711d7"
+  },
+  "endPoint": "Holland",
+  "locations": [
+    "Holland"
+  ],
+  "name": "Holland, MI",
+  "urls": [
+    "https://api.weather.gov/gridpoints/GRR/22,37",
+    "https://api.weather.gov/gridpoints/GRR/22,31",
+    "https://api.weather.gov/gridpoints/GRR/21,45"
+  ],
+  "lake": "Lake Michigan",
+  "reportId": "LMZ046"
+},{
+  "_id": {
+    "$oid": "5fdb8122ac3a7a9be79711d8"
+  },
+  "endPoint": "Marquette",
+  "locations": [
+    "Marquette"
+  ],
+  "name": "Marquette, MI",
+  "urls": [
+    "https://api.weather.gov/gridpoints/MQT/158,69",
+    "https://api.weather.gov/gridpoints/MQT/152,75",
+    "https://api.weather.gov/gridpoints/MQT/154,70"
+  ],
+  "lake": "Lake Superior",
+  "reportId": "LSZ263"
+},{
+  "_id": {
+    "$oid": "5fdb8223ac3a7a9be79711d9"
+  },
+  "endPoint": "Duluth",
+  "locations": [
+    "Stony Point"
+  ],
+  "name": "Duluth, MN",
+  "urls": [
+    "https://api.weather.gov/gridpoints/MQT/45,106",
+    "https://api.weather.gov/gridpoints/MQT/40,104",
+    "https://api.weather.gov/gridpoints/MQT/35,101"
+  ],
+  "lake": "Lake Superior",
+  "reportId": "LSZ263"
+},{
+  "_id": {
+    "$oid": "5fdcc702018270fc8e39c688"
+  },
+  "endPoint": "SouthHaven",
+  "locations": [
+    "South Haven"
+  ],
+  "name": "South Haven, MI",
+  "urls": [
+    "https://api.weather.gov/gridpoints/GRR/21,19",
+    "https://api.weather.gov/gridpoints/GRR/20,19",
+    "https://api.weather.gov/gridpoints/GRR/21,18"
+  ],
+  "lake": "Lake Michigan",
+  "reportId": "LMZ844"
+},{
+  "_id": {
+    "$oid": "5fdcc853018270fc8e39c689"
+  },
+  "endPoint": "GrandHaven",
+  "locations": [
+    "Grand Haven Pier"
+  ],
+  "name": "Grand Haven, MI",
+  "urls": [
+    "https://api.weather.gov/gridpoints/GRR/20,49",
+    "https://api.weather.gov/gridpoints/GRR/20,48",
+    "https://api.weather.gov/gridpoints/GRR/19,49"
+  ],
+  "lake": "Lake Michigan",
+  "reportId": "LMZ847"
+}]

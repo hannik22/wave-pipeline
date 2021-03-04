@@ -1,11 +1,15 @@
 import json
+import os
 import datetime
 from wavedata import wavedata 
 from watertemp import watertemp
 from reportdata import reportdata 
 from pymongo import MongoClient
 import time
-client = MongoClient('mongodb+srv://khannigan:91summon@cluster0.tnv2i.gcp.mongodb.net/test')
+
+mongoSecret = os.getenv('MONGO_URI')
+
+client = MongoClient(mongoSecret)
 
 db = client['scheduler']
 
